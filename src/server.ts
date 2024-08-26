@@ -3,7 +3,9 @@ import httpServer from './app/app.ts';
 import connection from './io/index.ts';
 
 
-export const io = new Server(httpServer);
+export const io = new Server(httpServer, {
+  connectionStateRecovery: {}
+});
 
 io.on('connection', connection)
 
