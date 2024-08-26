@@ -1,0 +1,24 @@
+
+ <script type="module">
+  import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
+
+  const socket = io();
+  let form = document.querySelector('#message-form');
+  let input = document.querySelector('#message-control');
+  let list = document.querySelector('#message-list')
+  
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (input.value) {
+      socket.emit('chat_message', input.value);
+      input.value = '';
+    }
+  })
+
+  socket.on('chat_message', (data) => {
+    const item = document.createElement('li');
+    item.textContent = data;
+    list.appendChild(item);
+    window.scrollTo(0, document.body.scrollHeight);
+  })
+</script> 
