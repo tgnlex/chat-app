@@ -1,9 +1,36 @@
-<input 
-  id="message-control"
-  class="form-control"
+
+
+
+
+
+
+<textarea 
+  id="message-field"
+  class="message-field"
   name="chat_message"
   placeholder="Enter a message..."
   type="text"
   required 
-/>
+>
+</textarea>
 
+<style>
+  .message-field {
+    --radius: 5px;
+    --border-width: 1px;
+    --border-type: solid;
+    --border-color: rgba(192, 192, 192, 0.85);
+    --field-border: var(--border-width), var(--border-type), var(--border-color);
+    border: var(--field-border);
+    border-radius: var(--radius);
+    box-shadow: 
+  }
+ .message-field:active {
+   --border-width: 1.5px;
+   --border-type: solid;
+   --border-color: rgba(64, 224, 208);
+   --field-active-border: var(--border-width), var(--border-type), var(--border-color);
+   border: var(--field-active-border);
+   
+ }
+</style>
