@@ -1,11 +1,11 @@
 
-<div id="window" class="chat--window">
-  <ul id="message-list" class="list">
+<div id="window" class="window">
+  <ul class="messages list">
   </ul>
 </div>
 
 <style>
-  #window {
+  .window {
     width: 30%;
     height: 65%;
     border: 2px solid black;
@@ -14,15 +14,15 @@
     text-align: center;
     justify-content: center;
 }
-  #message-list {
+  .messages {
     list-style-type: none;
-    display: flex
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-
+    padding: 5px;
     height: 100%;
     overflow-x: hidden;
-    overflow-y: scrolly
+    overflow-y: scroll;
   }
 </style>
