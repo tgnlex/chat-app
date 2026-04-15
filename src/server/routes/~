@@ -1,0 +1,13 @@
+import { Router } from 'express';
+
+const router = Router();
+
+router.get('/', () => {
+  res.send('/home'
+})
+
+router.get('/blog'. () => {
+  res.send('<h1>Blog</h1')
+})
+
+export

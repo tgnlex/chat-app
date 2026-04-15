@@ -1,0 +1,17 @@
+<html lang="rm">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/app.css" />
+     {% block head %}
+       <!--- Additional head content goes here --->
+     {% endblock %}
+  </head>
+  <body>
+    {% include "parts/nav.njk" %}
+    {% block main %}
+    <!--- Child content goes here !--->
+    {% endblock %}
+  </body>
+</html>
+
+
