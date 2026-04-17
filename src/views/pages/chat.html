@@ -1,0 +1,14 @@
+{% extends "layout/base.html" %}
+
+{% block main %}
+  <main id="chat" class="page">
+      {% include "includes/chat/window.html" %}
+      {% include "includes/chat/form.html" %}
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script>  
+  const socket = io();
+  </script>
+{% endblock %}

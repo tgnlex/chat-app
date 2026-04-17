@@ -3,11 +3,11 @@ import { Router } from 'express';
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.render('index.html')
+  res.render('pages/index.html')
 });
 
-router.get('/blog', (req, res) => {
-  res.render('blog.html')
+router.get('/chat', (req, res) => {
+  res.render('pages/chat.html')
 });
 
 export default router;

@@ -1,0 +1,16 @@
+#messages {
+    --messages--margin: 0;
+    --messages--pad: 0;
+    --msg-bg--secondary: #efefef;
+    padding: var(--messages--margin);
+    margin: var(--messages--pad);
+    & li {
+      --pad-x: 0.5rem;
+      --pad-y:   1rem;
+      --item--pad: var(--pad-x) var(--pad-y);
+      padding: var(--item--pad);
+    }
+    & li:nth-child(odd) {
+      --bg: var(--item-bg--secondary);
+      background: var(--bg);
+    };

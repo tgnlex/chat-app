@@ -1,0 +1,19 @@
+
+
+.page {
+  --page--heading: 2.5em;
+  --page--width: 100%;
+  min-height: 80vh;
+  width: var(--page--width);
+  height: var(--page--height);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 3em;    
+  & .heading {
+    font-family: var(--font-pop);
+    font-size: var(--page--heading);
+  }
+}

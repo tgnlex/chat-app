@@ -1,0 +1,17 @@
+:root {
+  
+  --fomt-stack: system-ui Avenir Helvetica sans-serif;
+  --font-mono: Roboto;
+  --font-sans: sans-serif;
+  --font-pop: Poppins;
+
+  --site-width: 100vw;
+  --site-offset: 5%;
+  --layout-width calc(var(--site-width) - var(--site-offset));
+  
+  --site-height: 100vh;
+  --header--height: 12vh;
+  --navbar--height: 8vh;
+  --top--height: calc(var(--header--height) + var(--navbar--height));
+  --page--height: calc(var(--site-height) - var(--top-height));
+}

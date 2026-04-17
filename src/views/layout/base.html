@@ -7,10 +7,12 @@
      {% endblock %}
   </head>
   <body>
-    {% include "parts/nav.njk" %}
-    {% block main %}
-    <!--- Child content goes here !--->
-    {% endblock %}
+    {% include "includes/layout/header.njk" %}
+    {% include "includes/layout/nav.njk" %}
+    {% block main %}<!--- Child content goes here !--->{% endblock %}
+    
+    {% include "includes/layout/libs.njk"  %}
+      {% block scripts %}{% endblock %}
   </body>
 </html>
 

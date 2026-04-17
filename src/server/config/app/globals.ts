@@ -1,6 +1,6 @@
 
 const globals = [
-  {key: 'app.name', value: 'njk blog' },
+  {key: 'app.name', value: 'chat' },
   {key: 'app.host', value: "127.0.0.1" },
   {key: 'app.port', value: 4000 },
   {key: 'app.version', value: "1.0.0" },
