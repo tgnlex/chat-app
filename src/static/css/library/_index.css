@@ -1,0 +1,53 @@
+@import "colors.css";
+@import "fonts.css";
+:root {
+   
+  --site-width: 100vw;
+  --site-offset: 5%;
+  --layout-width calc(var(--site-width) - var(--site-offset));
+  
+  --site-height: 100vh;
+  --header--height: 10vh;
+  --navbar--height: 8vh;
+  --footer--height: 6vh;
+
+  --content--width: 45ch;
+
+  --top--height: calc(var(--header--height) + var(--navbar--height));
+  --page--height: calc(var(--site-height) - var(--top-height));
+
+  --bg-1: var(--clr--black--100);
+  --bg-2: var(--clr--white--090);
+  --bg-3: var(--clr--purple--090);
+  --bg-4: var(--clr--cyan--085);
+
+  --fg-1: var(--clr--white--100);
+  --fg-2: var(--clr--black--090);
+  --fg-3: var(--clr--gray--100);
+  --fg-4: var(--clr--teal--100);
+  --fg-5: var(--clr--cherry--095);
+
+  --text: var(--clr--white--095);
+  --link: var(--clr--rebecca--100);
+  
+  --ok: var(--clr--green--100);
+  --alert: var(--clr--blue--095);
+  --error: var(--clr--red--100);
+  --warn: var(--clr--yellow--090);
+  
+  --btn--hover: var(--clr--rebecca--095);
+  @media (prefers-colors-scheme: light) {
+    
+    --bg-1: var(--clr--white--100);
+    --bg-2: var(--clr--black--090);
+    
+    --fg-1: var(--clr--black--100);
+    --fg-2: var(--clr--white--095);
+    --fg-3: var(--clr--gray--090);
+  
+    --text: var(--clr--black--100);
+    --link: var(--clr--rebecca--095);
+    --btn--hover: var(--clr--rebecca--090);
+  }
+  
+}

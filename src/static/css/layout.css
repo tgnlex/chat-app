@@ -1,5 +1,8 @@
 #header {
   height: var(--header--height);
+  & #title--wrapper {
+    border: 2px solid black;
+  }
 }
 
 #navbar {

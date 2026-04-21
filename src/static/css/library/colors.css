@@ -1,0 +1,139 @@
+:root {
+  
+  
+  --rgb-blue: 0, 0, 255;
+  --rgb-red: 255, 0, 0;
+  --rgb-green: 0, 255, 0;
+  --rgb-black: 12, 12, 12;
+  --rgb-gray: 120, 120, 120;
+  --rgb-white: 224, 224, 224;
+  --rgb-purple: 255, 0, 255;
+  --rgb-yellow: 255, 255, 0;
+  --rgb-cyan: 0, 255, 255;
+  --rgb-magenta: 255, 0, 255;
+  --rgb-teal: 0, 128, 128;
+  --rgb-rebecca: 102, 51, 153;
+  --rgb-cherry: 210, 10, 46;
+  --rgb-coral: 225, 119, 93;
+  --rgb-gold: 255, 215, 0;
+  --rgb-emerald: 80, 200, 120;
+  --rgb-forest: 34, 139, 34;
+  --rgb-pastel-pink: 255, 192, 203;
+  --a-100: 1;
+  --a-095: 0.95;
+  --a-090: 0.9;
+  --a-085: 0.85;
+  --a-080: 0.8;
+
+  --clr--black--100: rgba(var(--rgb-black) var(--a-100));
+  --clr--black--095: rgba(var(--rgb-black), var(--a-095));
+  --clr--black--090: rgba(var(--rgb-black), var(--a-090));
+  --clr--black--085: rgba(var(--rgb-black), var(--a-085));
+  --clr--black--080: rgba(var(--rgb-black), var(--a-080));
+
+  --clr--gray--100: rgba(var(--rgb-gray), var(--a-100));
+  --clr--gray--095: rgba(var(--rgb-gray), var(--a-095));
+  --clr--gray--090: rgba(var(--rgb-gray), var(--a-090));
+  --clr--gray--085: rgba(var(--rgb-gray), var(--a-085));
+  --clr--gray--080: rgba(var(--rgb-gray), var(--a-080));
+  
+  --clr--white--100: rgba(var(--rgb-white), var(--a-100));
+  --clr--white--095: rgba(var(--rgb-white), var(--a-095));
+  --clr--white--090: rgba(var(--rgb-white), var(--a-090));
+  --clr--white--085: rgba(var(--rgb-white), var(--a-085));
+  --clr--white--080: rgba(var(--rgb-white), var(--a-080));
+  
+  --clr--red--100: rgba(var(--rgb-red), var(--a-100));
+  --clr--red--095: rgba(var(--rgb-red), var(--a-095));
+  --clr--red--090: rgba(var(--rgb-red), var(--a-090));
+  --clr--red--085: rgba(var(--rgb-red), var(--a-085));
+  --clr--red--080: rgba(var(--rgb-red), var(--a-080));
+  
+  --clr--blue--100: rgba(var(--rgb-blue), var(--a-100));
+  --clr--blue--095: rgba(var(--rgb-blue), var(--a-095));
+  --clr--blue--090: rgba(var(--rgb-blue), var(--a-090));
+  --clr--blue--085: rgba(var(--rgb-blue), var(--a-085));
+  --clr--blue--080: rgba(var(--rgb-blue), var(--a-080));
+  
+  --clr--green--100: rgba(var(--rgb-green), var(--a-100));
+  --clr--green--095: rgba(var(--rgb-green), var(--a-095));
+  --clr--green--090: rgba(var(--rgb-green), var(--a-090));
+  --clr--green--085: rgba(var(--rgb-green), var(--a-085));
+  --clr--green--080: rgba(var(--rgb-green), var(--a-080));
+
+  --clr--purple--100: rgba(var(--rgb-purple), var(--a-100));
+  --clr--purple--095: rgba(var(--rgb-purple), var(--a-095));
+  --clr--purple--090: rgba(var(--rgb-purple), var(--a-090));
+  --clr--purple--085: rgba(var(--rgb-purple), var(--a-085));
+  --clr--purple--080: rgba(var(--rgb-purple), var(--a-080));
+
+  --clr--yellow--100: rgba(var(--rgb-yellow), var(--a-100));
+  --clr--yellow--095: rgba(var(--rgb-yellow), var(--a-095));
+  --clr--yellow--090: rgba(var(--rgb-yellow), var(--a-090));
+  --clr--yellow--085: rgba(var(--rgb-yellow), var(--a-085));
+  --clr--yellow--080: rgba(var(--rgb-yellow), var(--a-080)); 
+
+  --clr--rebecca--100: rgba(var(--rgb-rebecca), var(--a-100));
+  --clr--rebecca--095: rgba(var(--rgb-rebecca), var(--a-095));
+  --clr--rebecca--090: rgba(var(--rgb-rebecca), var(--a-090));
+  --clr--rebecca--085: rgba(var(--rgb-rebecca), var(--a-085));
+  --clr--rebecca--080: rgba(var(--rgb-rebecca), var(--a-080));
+
+
+  --clr--cherry--100: rgba(var(--rgb-cherry), var(--a-100));
+  --clr--cherry--095: rgba(var(--rgb-cherry), var(--a-095));
+  --clr--cherry--090: rgba(var(--rgb-cherry), var(--a-090));
+  --clr--cherry--085: rgba(var(--rgb-cherry), var(--a-085));
+  --clr--cherry--080: rgba(var(--rgb-cherry), var(--a-080));
+
+  --clr--magenta--100: rgba(var(--rgb-magenta), var(--a-100));
+  --clr--magenta--095: rgba(var(--rgb-magenta), var(--a-095));
+  --clr--magenta--090: rgba(var(--rgb-magenta), var(--a-090));
+  --clr--magenta--085: rgba(var(--rgb-magenta), var(--a-085));
+  --clr--magenta--080: rgba(var(--rgb-magenta), var(--a-080));
+
+  --clr--cyan--100: rgba(var(--rgb-cyan), var(--a-100));
+  --clr--cyan--095: rgba(var(--rgb-cyan), var(--a-095));
+  --clr--cyan--090: rgba(var(--rgb-cyan), var(--a-090));
+  --clr--cyan--085: rgba(var(--rgb-cyan), var(--a-085));
+  --clr--cyan--080: rgba(var(--rgb-cyan), var(--a-080));
+  
+
+  --clr--teal--100: rgba(var(--rgb-teal), var(--a-100));
+  --clr--teal--095: rgba(var(--rgb-teal), var(--a-095));
+  --clr--teal--090: rgba(var(--rgb-teal), var(--a-090));
+  --clr--teal--085: rgba(var(--rgb-teal), var(--a-085));
+  --clr--teal--080: rgba(var(--rgb-teal), var(--a-080));
+
+  --clr--coral--100: rgba(var(--rgb-coral), var(--a-100));
+  --clr--coral--095: rgba(var(--rgb-coral), var(--a-095));
+  --clr--coral--090: rgba(var(--rgb-coral), var(--a-090));
+  --clr--coral--085: rgba(var(--rgb-coral), var(--a-085));
+  --clr--coral--080: rgba(var(--rgb-coral), var(--a-080));
+
+  --clr--gold--100: rgba(var(--rgb-gold), var(--a-100));
+  --clr--gold--095: rgba(var(--rgb-gold), var(--a-095));
+  --clr--gold--090: rgba(var(--rgb-gold), var(--a-090));
+  --clr--gold--085: rgba(var(--rgb-gold), var(--a-085));
+  --clr--gold--080: rgba(var(--rgb-gold), var(--a-080));
+
+  --clr--emerald--100: rgba(var(--rgb-emerald), var(--a-100));
+  --clr--emerald--095: rgba(var(--rgb-emerald), var(--a-095));
+  --clr--emerald--090: rgba(var(--rgb-emerald), var(--a-090));
+  --clr--emerald--085: rgba(var(--rgb-emerald), var(--a-085));
+  --clr--emerald--080: rgba(var(--rgb-emerald), var(--a-080));
+
+  --clr--forest--100: rgba(var(--rgb-forest), var(--a-100));
+  --clr--forest--095: rgba(var(--rgb-forest), var(--a-095));
+  --clr--forest--090: rgba(var(--rgb-forest), var(--a-090));
+  --clr--forest--085: rgba(var(--rgb-forest), var(--a-085));
+  --clr--forest--080: rgba(var(--rgb-forest), var(--a-080));
+
+  --clr--pastel-pink--100: rgba(var(--rgb-pastel-pink), var(--a-100));
+  --clr--pastel-pink--095: rgba(var(--rgb-pastel-pink), var(--a-095));
+  --clr--pastel-pink--090: rgba(var(--rgb-pastel-pink), var(--a-090));
+  --clr--pastel-pink--085: rgba(var(--rgb-pastel-pink), var(--a-085));
+  --clr--pastel-pink--080: rgba(var(--rgb-pastel-pink), var(--a-080));
+
+
+}

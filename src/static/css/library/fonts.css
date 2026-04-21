@@ -1,0 +1,29 @@
+:root {
+  --font-default: system-ui;
+  --font-fallback-1: Avenir;
+  --font-fallback-2: Helvetica;
+  --font-sans: sans-serif;
+
+  --font-stack: var(--font-default) var(--font-fallback-1) var(--font-fallback-2) var(--font-serif);
+  --font-mono: Roboto;
+  --font-pop: Poppins;
+
+  --fs-base: 16px;
+  
+  --fs-fine: calc(var(--fs-tiny) / 2); /** 0.125em ***/
+  --fs-tiny: calc(var(--fs-sm) / 2); /** 0.25em **/
+  --fs-sm: calc(var(--fs-md) / 2); /** 0.5em **/
+  --fs-md: 1em;
+  --fs-lg: calc(var(--fs-md) * 2)); /** 2em **/
+  --fs-xl: calc(var(--fs-lg) * 2)); /** 4em **/
+
+
+  --fs-text: 1.2em;
+  --fs-link: 1.4em;
+  --fs-card: 1.6em;
+  --fs-head: 2.8em;
+
+  --fs-btn-sm: 1.1em;
+  --fs-btn-md: 1.3em;
+  --fs-btn-lg: 1.5em;
+}
