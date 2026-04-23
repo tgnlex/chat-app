@@ -17,13 +17,10 @@
   --fs-lg: calc(var(--fs-md) * 2)); /** 2em **/
   --fs-xl: calc(var(--fs-lg) * 2)); /** 4em **/
 
+  /*** FONT SIZES ***/  
+  --fs-btn: clamp(0.8rem 1.1em 1.2rem);
+  --fs-text: clamp(0.5rem 1em 1.8rem);
+  --fs-link: clamp(1rem 1.4em 2rem);
+  --fs-head: clamp(2.5rem 3em 4rem);
 
-  --fs-text: 1.2em;
-  --fs-link: 1.4em;
-  --fs-card: 1.6em;
-  --fs-head: 2.8em;
-
-  --fs-btn-sm: 1.1em;
-  --fs-btn-md: 1.3em;
-  --fs-btn-lg: 1.5em;
 }
