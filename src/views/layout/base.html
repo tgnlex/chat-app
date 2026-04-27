@@ -1,18 +1,15 @@
 <html lang="rm">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="/css/app.css" />
      {% block head %}
        <!--- Additional head content goes here --->
      {% endblock %}
   </head>
   <body>
     {% include "includes/layout/header.njk" %}
-    {% include "includes/layout/nav.njk" %}
     {% block main %}<!--- Child content goes here !--->{% endblock %}
-    
-    {% include "includes/layout/libs.njk"  %}
-      {% block scripts %}{% endblock %}
+    {% block scripts %}{% endblock %}
   </body>
 </html>
 

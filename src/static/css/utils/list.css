@@ -1,8 +1,7 @@
 
 .list { 
   display: flex;
-  list-style-type: none 
-  & :not(.inline) { flex-direction: column; }
-  & [class="inline"] { flex-direction: row; }
+  flex-direction: column; 
+  list-style-type: none;
 }
 

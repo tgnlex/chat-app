@@ -10,12 +10,21 @@ const BODY_PARSER = [
   express.text()
 ]
 
+const helmetConfig = {
+  directives: {
+    "default-src": ['"self"'],
+    "script-src": ["'self'"],
+    "object-src": ["'none'"],
+    "upgrade-insecure-requests": []
+  },
+}
+
 const plugins = [
   express.static('src/static'),
   ...BODY_PARSER,
   cookieParser(),
 //  cookieSession(),
-  helmet()
+  helmet(helmetConfig)
 ]
 
 

@@ -1,27 +1,38 @@
 #header {
-  height: var(--header--height);
-  & #title--wrapper {
-    border: 2px solid black;
-  }
-}
-
-#navbar {
-  --navbar--radius: 0.4rem;
-  --navbar--border: 2px solid black;
-  --navbar--width: var(--layout--width);
-  --navbar--pad: 0.25em;
-  --navbar--list--width: 80vw;
-  --navbar--list--gap: 1.5vw;
-  border-radius: var(--navbar--radius);
-  border: var(--navbar--border);
-  width: var(--layout--width);
-  padding: var(--navbar--pad);
-  height: var(--navbar--height);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  & .list {
+  flex-direction: row;
+  padding: 0.5em;
+  height: 10vh;
+  border: 4px solid var(--clr--emerald--100);
+  border-radius: 0.6rem;
+  background: var(--clr--black--100);
+  & #title {
+    color: var(--clr--white--100);
+    padding: 0 0.5em;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    border: 4px solid var(--clr--white--090);
+  }
+  & #navbar {
+    --navbar--radius: 0.4rem;
+    --navbar--border: 2px solid black;
+    --navbar--width: var(--layout--width);
+    --navbar--pad: 0.25em;
+    --navbar--list--width: 80vw;
+    --navbar--list--gap: 1.5vw;
+    margin-left: 0.5rem;
+    border-radius: var(--navbar--radius);
+    border: var(--navbar--border);
+    width: var(--layout--width);
+    padding: var(--navbar--pad);
+    height: var(--navbar--height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .list {
+
     list-style-type: none;
     width: var(--navbar--list--width);
     gap: var(--navbar--list--gap);
@@ -29,21 +40,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    & .item:has(.link) {
-      --item--border: 2px solid black;
-      --item--pad: 0.25em 0.5em;
-      --item--width: 8vw;
+      & .item:has(.link) {
+        --item--border: 2px solid black;
+        --item--pad: 0.25em 0.5em;
+        --item--width: 8vw;
 
-      padding: var(--item--pad);
-      border: var(--item--border);
-      width: var(--item--width);
-      text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      place-items: center;
-      border-radius: 0.6rem;
-    }
+        background-color: var(--clr--white--100);
+        padding: var(--item--pad);
+        border: var(--item--border);
+        width: var(--item--width);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        border-radius: 0.6rem;
+        & .link {
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
     
+    }
   }
 }
-

@@ -1,9 +1,18 @@
 
 
-#window { 
-  background: white;
-  height: 60vh;
-  width: 40vw;
-  border-radius: 0.6rem;
-  
+#window {
+  --window--border: 4px solid var(--clr--emerald--100);
+  --window--radius: 0.6rem;
+  --window--height: 65vh;
+  --window--width: 40vw;
+  --window--pad: 2em;
+  --window--bg: var(--clr--white--100);
+  background: var(--window--bg);
+  height: var(--window--height);
+  width: var(--window--width);
+  border-radius: var(--window--radius);
+  border: var(--window--border);  
+  padding: var(--window--pad);
+  overflow-y: scroll;
+  overflow-x: none;
 }

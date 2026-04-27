@@ -1,16 +1,20 @@
 #messages {
     --messages--margin: 0;
     --messages--pad: 0;
-    --msg-bg--secondary: #efefef;
+    display: flex;
+    flex-direction: column; 
+    list-style-type: none;
     padding: var(--messages--margin);
     margin: var(--messages--pad);
-    & li {
+
+    & .item {
       --pad-x: 0.5rem;
       --pad-y:   1rem;
       --item--pad: var(--pad-x) var(--pad-y);
       padding: var(--item--pad);
     }
-    & li:nth-child(odd) {
-      --bg: var(--item-bg--secondary);
-      background: var(--bg);
-    };
+    & .text {
+      --text--color: var(--clr--black--100);
+      color: var(--text--color);
+    }
+  };
